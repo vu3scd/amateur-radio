@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///Users/apple/Downloads/amateur_radio_day_article.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amateur Radio Day — April 18, 2026</title>
+<link href="./Amateur Radio Day — April 18, 2026_files/css2" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink: #1a1208;
+    --ink-mid: #3d3022;
+    --ink-soft: #7a6a52;
+    --ink-faint: #b5a48c;
+    --cream: #faf6ef;
+    --cream-dark: #f0e9dc;
+    --cream-border: #ddd0bb;
+    --amber: #c47c1a;
+    --amber-light: #f5d48a;
+    --amber-pale: #fdf3dc;
+    --teal: #1a6b6b;
+    --teal-light: #e0f0f0;
+    --red: #8c2020;
+    --col-width: 680px;
+  }
+
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 300;
+    line-height: 1.75;
+    font-size: 18px;
+  }
+
+  /* ── masthead ── */
+  .masthead {
+    background: var(--ink);
+    color: var(--cream);
+    text-align: center;
+    padding: 3.5rem 2rem 2.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .masthead::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(255,255,255,0.025) 2px,
+      rgba(255,255,255,0.025) 4px
+    );
+    pointer-events: none;
+  }
+  .masthead-eyebrow {
+    font-family: 'Source Serif 4', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--amber-light);
+    margin-bottom: 1.2rem;
+  }
+  .masthead h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(2.4rem, 6vw, 4.2rem);
+    font-weight: 700;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 0.6rem;
+  }
+  .masthead h1 em {
+    font-style: italic;
+    color: var(--amber-light);
+  }
+  .masthead-sub {
+    font-size: 15px;
+    color: rgba(255,255,255,0.55);
+    letter-spacing: 0.06em;
+    margin-top: 1.2rem;
+  }
+  .masthead-rule {
+    width: 60px;
+    height: 2px;
+    background: var(--amber);
+    margin: 1.4rem auto 0;
+  }
+
+  /* ── layout ── */
+  .page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1.5rem 5rem;
+  }
+
+  /* ── date strip ── */
+  .date-strip {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--cream-border);
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+  }
+  .date-strip span {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .date-strip .dot { color: var(--amber); font-size: 18px; line-height: 1; }
+
+  /* ── pull quote / lede ── */
+  .lede {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    font-size: clamp(1.2rem, 3vw, 1.55rem);
+    color: var(--ink-mid);
+    line-height: 1.5;
+    border-left: 3px solid var(--amber);
+    padding-left: 1.4rem;
+    margin: 0 0 3rem;
+  }
+
+  /* ── section ── */
+  .section {
+    margin-bottom: 3.5rem;
+  }
+  .section-label {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--amber);
+    border: 1px solid var(--amber);
+    padding: 3px 10px;
+    border-radius: 2px;
+    margin-bottom: 0.75rem;
+  }
+  .section h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.5rem, 4vw, 2.1rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--ink);
+    margin-bottom: 1.2rem;
+  }
+  .section p {
+    color: var(--ink-mid);
+    margin-bottom: 1.1rem;
+    font-size: 17px;
+  }
+  .section p:last-child { margin-bottom: 0; }
+
+  /* ── divider ── */
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2.5rem 0;
+  }
+  .divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--cream-border);
+  }
+  .divider-icon {
+    font-size: 20px;
+    color: var(--amber);
+  }
+
+  /* ── info box ── */
+  .info-box {
+    background: var(--amber-pale);
+    border: 1px solid var(--amber-light);
+    border-left: 4px solid var(--amber);
+    border-radius: 4px;
+    padding: 1.2rem 1.4rem;
+    margin: 1.8rem 0;
+  }
+  .info-box h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+  }
+  .info-box p {
+    font-size: 15px !important;
+    color: var(--ink-mid) !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  /* ── teal info box ── */
+  .teal-box {
+    background: var(--teal-light);
+    border-left: 4px solid var(--teal);
+    border-radius: 4px;
+    padding: 1.2rem 1.4rem;
+    margin: 1.8rem 0;
+  }
+  .teal-box h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0d4040;
+    margin-bottom: 0.6rem;
+  }
+  .teal-box p {
+    font-size: 15px !important;
+    color: #184040 !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  /* ── region cards ── */
+  .region-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1.8rem 0;
+  }
+  @media (max-width: 600px) { .region-grid { grid-template-columns: 1fr; } }
+  .region-card {
+    background: var(--cream-dark);
+    border: 1px solid var(--cream-border);
+    border-top: 3px solid var(--amber);
+    border-radius: 4px;
+    padding: 1rem;
+  }
+  .region-card .num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--amber);
+    line-height: 1;
+    margin-bottom: 0.3rem;
+  }
+  .region-card .title { font-size: 13px; font-weight: 600; color: var(--ink); margin-bottom: 0.4rem; letter-spacing: 0.04em; }
+  .region-card .desc { font-size: 13px; color: var(--ink-soft); line-height: 1.5; }
+
+  /* ── callsign demo ── */
+  .callsign-demo {
+    background: var(--ink);
+    color: #fff;
+    border-radius: 6px;
+    padding: 1.8rem;
+    margin: 1.8rem 0;
+    font-family: 'Courier New', monospace;
+  }
+  .callsign-demo .cs-title {
+    font-family: 'Source Serif 4', serif;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--amber-light);
+    margin-bottom: 1rem;
+  }
+  .callsign-display {
+    font-size: clamp(2rem, 7vw, 3.5rem);
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    color: #fff;
+    margin-bottom: 1.2rem;
+  }
+  .callsign-parts {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .cs-part {
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 3px;
+    padding: 0.3rem 0.7rem;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .cs-part .label { color: var(--amber-light); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; display: block; }
+  .cs-part .val { color: #fff; font-size: 14px; font-weight: bold; }
+
+  /* ── prefix table ── */
+  .prefix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin: 1.4rem 0;
+  }
+  .prefix-table th {
+    background: var(--ink);
+    color: var(--amber-light);
+    padding: 0.5rem 0.8rem;
+    text-align: left;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Source Serif 4', serif;
+  }
+  .prefix-table td {
+    padding: 0.5rem 0.8rem;
+    border-bottom: 1px solid var(--cream-border);
+    color: var(--ink-mid);
+    vertical-align: top;
+  }
+  .prefix-table tr:nth-child(even) td { background: var(--cream-dark); }
+  .prefix-table td:first-child { font-weight: 600; color: var(--ink); font-family: 'Courier New', monospace; font-size: 15px; }
+
+  /* ── tech cards ── */
+  .tech-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1.8rem 0;
+  }
+  @media (max-width: 540px) { .tech-grid { grid-template-columns: 1fr; } }
+  .tech-card {
+    background: var(--cream-dark);
+    border: 1px solid var(--cream-border);
+    border-radius: 4px;
+    padding: 1rem 1.2rem;
+  }
+  .tech-card h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 0.35rem;
+  }
+  .tech-card p { font-size: 13.5px !important; color: var(--ink-soft) !important; margin-bottom: 0 !important; }
+
+  /* ── reason list ── */
+  .reason-list { list-style: none; margin: 1.4rem 0; }
+  .reason-list li {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--cream-border);
+  }
+  .reason-list li:last-child { border-bottom: none; }
+  .reason-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--amber);
+    line-height: 1;
+    min-width: 2rem;
+    padding-top: 2px;
+  }
+  .reason-text strong { display: block; font-size: 15px; font-weight: 600; color: var(--ink); margin-bottom: 0.2rem; }
+  .reason-text span { font-size: 14px; color: var(--ink-soft); line-height: 1.5; }
+
+  /* ── closing banner ── */
+  .closing {
+    background: var(--ink);
+    color: var(--cream);
+    text-align: center;
+    padding: 3rem 2rem;
+    border-radius: 6px;
+    margin-top: 3rem;
+  }
+  .closing h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.6rem;
+  }
+  .closing p { font-size: 15px; color: rgba(255,255,255,0.6); max-width: 480px; margin: 0 auto; }
+  .closing .freq {
+    font-family: 'Courier New', monospace;
+    font-size: 1.1rem;
+    color: var(--amber-light);
+    margin: 1rem 0;
+    letter-spacing: 0.08em;
+  }
+
+  /* ── footer ── */
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 12px;
+    color: var(--ink-faint);
+    letter-spacing: 0.06em;
+    border-top: 1px solid var(--cream-border);
+    margin-top: 3rem;
+  }
+</style>
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+
+<div class="masthead">
+  <p class="masthead-eyebrow">World Amateur Radio Day · April 18, 2026</p>
+  <h1>The Air Belongs<br>to <em>Everyone</em></h1>
+  <div class="masthead-rule"></div>
+  <p class="masthead-sub">A century of voices, frequencies &amp; fellowship</p>
+</div>
+
+<div class="page">
+
+  <div class="date-strip">
+    <span>April 18, 2026</span>
+    <span class="dot">·</span>
+    <span>Feature</span>
+    <span class="dot">·</span>
+    <span>World Amateur Radio Day</span>
+  </div>
+
+  <p class="lede">"When every other form of communication fails, the amateur radio operator is still there — antenna pointed at the sky, key in hand, keeping the world connected."</p>
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- SECTION 1 -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div class="section">
+    <span class="section-label">Origins</span>
+    <h2>How Ham Radio Came Into Existence</h2>
+
+    <p>The story of amateur radio is, at its heart, the story of human curiosity outrunning official permission. In the late 1800s, following Guglielmo Marconi's landmark wireless telegraphy demonstrations, radio was seen purely as a commercial and military tool. But tinkerers, students, and curious minds began building their own transmitters in backyards and attics — and nobody had told them they couldn't.</p>
+
+    <p>By the early 1900s, amateur experimenters were proliferating across the United States, Britain, and Europe. So numerous and noisy did they become that the U.S. Radio Act of 1912 formally relegated them to wavelengths below 200 metres — the electromagnetic equivalent of banishment. Authorities assumed that short wavelengths were useless. They were spectacularly wrong.</p>
+
+    <div class="info-box">
+      <h3>Why "Ham"?</h3>
+      <p>The origin of the word "ham" is debated. One popular account attributes it to early 20th-century professional telegraph operators who used it as a derogatory slang for poor operators. Amateurs embraced the label proudly. Another theory links it to the initials H-A-M from the names of three pioneer Harvard radio experimenters: Albert Hyman, Bob Almy, and Poogie Murray.</p>
+    </div>
+
+    <p>In 1921, American amateur operators conducted the first transatlantic two-way shortwave contact, proving that the "useless" frequencies could carry signals around the entire globe via ionospheric skip. This discovery shook the wireless world. The short waves that professionals had dismissed were suddenly the foundation of international communication.</p>
+
+    <p>The milestone that gave World Amateur Radio Day its date came on April 18, 1925, when the International Amateur Radio Union (IARU) was founded in Paris, bringing together 25 national amateur radio societies and formally establishing the hobby as an organised global community. Every April 18 since then has been celebrated as World Amateur Radio Day.</p>
+
+    <p>Through two World Wars, the Great Depression, and the dawn of the Space Age, amateur radio operators kept building, experimenting, and communicating. When satellite communication, the internet, and mobile phones arrived, many assumed ham radio would fade into nostalgia. Instead, it adapted — and thrives today with over 3 million licensed operators worldwide.</p>
+  </div>
+
+  <div class="divider"><span class="divider-icon">◆</span></div>
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- SECTION 2 -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div class="section">
+    <span class="section-label">Governance</span>
+    <h2>The IARU and the World's Three Radio Regions</h2>
+
+    <p>The International Amateur Radio Union, founded on that Paris day in 1925, functions as the global representative body for amateur radio interests. It lobbies at the International Telecommunication Union (ITU) to protect amateur frequency allocations from commercial encroachment, coordinates international operating agreements, and develops technical standards. Today, over 160 national amateur radio societies are affiliated with the IARU.</p>
+
+    <p>To manage the radio frequency spectrum efficiently across a planet of wildly different time zones, population densities, and propagation conditions, the ITU divides the world into three administrative regions. The IARU mirrors this structure, with each region maintaining its own band plans suited to local conditions.</p>
+
+    <div class="region-grid">
+      <div class="region-card">
+        <div class="num">1</div>
+        <div class="title">Region 1 — IARU-R1</div>
+        <div class="desc">Europe, Africa, the Middle East, and the former Soviet states. The largest region by land mass. Headquarters in Bochum, Germany.</div>
+      </div>
+      <div class="region-card">
+        <div class="num">2</div>
+        <div class="title">Region 2 — IARU-R2</div>
+        <div class="desc">The Americas — North, Central, South, and the Caribbean. Administered from Newington, Connecticut, USA, home of the ARRL.</div>
+      </div>
+      <div class="region-card">
+        <div class="num">3</div>
+        <div class="title">Region 3 — IARU-R3</div>
+        <div class="desc">Asia and the Pacific. Covers the most diverse range of national regulations and encompasses vast oceanic distances.</div>
+      </div>
+    </div>
+
+    <p>Each region holds its own conferences to update band plans — the detailed assignments of which amateur activities (voice, Morse code, digital modes, satellite uplinks) happen on which frequencies. While the ITU sets the outer limits, band plans within those limits are voluntary agreements forged by the amateur community itself: a rare example of a global communications system largely self-governed by its users.</p>
+
+    <div class="teal-box">
+      <h3>Why three regions and not one global plan?</h3>
+      <p>Radio propagation is not uniform. The ionosphere behaves differently over polar, equatorial, and temperate zones. Interference patterns that are manageable in a sparsely populated region can be catastrophic in a densely urbanised one. Three regional plans allow fine-tuning for these realities while maintaining enough global harmony for cross-border contacts.</p>
+    </div>
+  </div>
+
+  <div class="divider"><span class="divider-icon">◆</span></div>
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- SECTION 3 -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div class="section">
+    <span class="section-label">Legal Status</span>
+    <h2>Licensing, Legal Standing &amp; Bilateral Agreements</h2>
+
+    <p>Amateur radio is, in virtually every country, a licensed service. To transmit, you must hold a valid licence issued by your national telecommunications authority — the FCC in the United States, Ofcom in the United Kingdom, TRAI/WPC in India, and so on. Licences are earned by passing examinations covering radio theory, operating procedures, and national regulations.</p>
+
+    <p>This licensing framework gives amateur radio a formal, protected legal status unlike any casual communications technology. Licensed operators are permitted to build their own transmitters, experiment with new modes, and in many countries transmit with significant power — up to 1,500 watts in the United States, for example.</p>
+
+    <div class="info-box">
+      <h3>The CEPT Agreement — Europe and Beyond</h3>
+      <p>The most significant bilateral (and multilateral) framework is the CEPT (Conférence Européenne des Postes et Télécommunications) arrangement. Under CEPT Recommendation T/R 61-01, a licensed amateur in one member country can operate in any other CEPT country using their home licence, for visits up to three months. Over 60 countries participate, including most of Europe, Australia, South Africa, Israel, and others.</p>
+      <p>A companion arrangement, CEPT T/R 61-02, allows non-European CEPT-class amateurs to receive a temporary CEPT licence when visiting member states.</p>
+    </div>
+
+    <p>Beyond CEPT, a patchwork of bilateral arrangements governs cross-border operating. The United States has bilateral agreements with Canada, Mexico, Australia, New Zealand, Japan, South Korea, Israel, and several Caribbean nations, among others, allowing each country's amateurs to operate in the other country under their home call sign for defined periods — typically with a reciprocal prefix prepended.</p>
+
+    <p>The ITU's Radio Regulations (Article 25) formally recognise amateur radio as a legitimate radiocommunication service, providing a treaty-level legal foundation. This means that national authorities cannot simply abolish amateur radio — it is woven into international telecommunications law. The service's legal standing has been tested and affirmed repeatedly, including at ITU World Radiocommunication Conferences where commercial interests have lobbied for spectrum reallocation.</p>
+  </div>
+
+  <div class="divider"><span class="divider-icon">◆</span></div>
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- SECTION 4 -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div class="section">
+    <span class="section-label">Identity on the Air</span>
+    <h2>Callsigns — The Amateur's Signature</h2>
+
+    <p>Every licensed amateur radio operator is issued a unique callsign — a short alphanumeric identifier that must be transmitted at regular intervals during any contact and at the conclusion of every transmission. A callsign is not merely administrative; it is the operator's identity on the air, as distinctive as a signature.</p>
+
+    <div class="callsign-demo">
+      <p class="cs-title">Anatomy of a callsign</p>
+      <div class="callsign-display">VU2ABC</div>
+      <div class="callsign-parts">
+        <div class="cs-part">
+          <span class="label">Country Prefix</span>
+          <span class="val">VU</span>
+        </div>
+        <div class="cs-part">
+          <span class="label">District / Region</span>
+          <span class="val">2</span>
+        </div>
+        <div class="cs-part">
+          <span class="label">Suffix (unique ID)</span>
+          <span class="val">ABC</span>
+        </div>
+      </div>
+    </div>
+
+    <p>Callsigns follow the ITU format of a <strong>prefix</strong> (one or two letters identifying the country, sometimes with a digit), a <strong>district number</strong> (indicating a geographical sub-region within the country), and a <strong>suffix</strong> of one to three letters that uniquely identifies the individual station. By hearing just the prefix, any operator in the world can immediately identify which country a station is transmitting from.</p>
+
+    <table class="prefix-table">
+      <thead>
+        <tr>
+          <th>Prefix</th>
+          <th>Country</th>
+          <th>Example Call</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>W / K / N / AA–AL</td><td>United States</td><td>W1AW, K4XYZ</td></tr>
+        <tr><td>VE / VA</td><td>Canada</td><td>VE3ABC</td></tr>
+        <tr><td>G / M</td><td>United Kingdom</td><td>G4ABC, M0XYZ</td></tr>
+        <tr><td>VU</td><td>India</td><td>VU2NXM</td></tr>
+        <tr><td>JA</td><td>Japan</td><td>JA1ABC</td></tr>
+        <tr><td>DL</td><td>Germany</td><td>DL4ABC</td></tr>
+        <tr><td>F</td><td>France</td><td>F5UKW</td></tr>
+        <tr><td>ZL</td><td>New Zealand</td><td>ZL2BCI</td></tr>
+        <tr><td>VK</td><td>Australia</td><td>VK3YO</td></tr>
+        <tr><td>BY / BA</td><td>China</td><td>BY1QH</td></tr>
+      </tbody>
+    </table>
+
+    <p>Special callsigns are issued for contest stations, national events, and commemorative occasions — such as the "1A0" prefix for the Sovereign Military Order of Malta (one of the world's rarest calls) or "HV" for Vatican City. During field days and emergency activations, portable and mobile designators like "/P" or "/M" are appended. A DXpedition to a remote island might add "/MM" for maritime mobile or a full new prefix if the destination has its own ITU allocation.</p>
+
+    <p>Serious DX (long-distance) operators maintain detailed logs of every callsign contact and collect QSL cards — paper or electronic confirmation slips — to verify contacts with rare entities. Earning an "All-Time New One" (a contact with a previously unworked country or territory) remains one of the hobby's great thrills.</p>
+  </div>
+
+  <div class="divider"><span class="divider-icon">◆</span></div>
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- SECTION 5 -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div class="section">
+    <span class="section-label">Innovation Legacy</span>
+    <h2>Technologies Born in the Ham Shack</h2>
+
+    <p>The amateur radio community has an extraordinary record of technical innovation. Operating under tight power and frequency constraints, with every penny of budget coming from their own pockets, amateur operators have repeatedly invented technologies that later transformed commercial and military communications.</p>
+
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>Single Sideband (SSB)</h4>
+        <p>Amateurs refined and popularised SSB modulation in the 1950s, dramatically improving long-distance voice communication efficiency. It remains the dominant HF voice mode today.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Packet Radio &amp; TCP/IP</h4>
+        <p>Amateur operators developed AX.25 packet radio in the 1970s–80s, building the first wireless data networks years before Wi-Fi. Some of the earliest internet nodes were amateur packet stations.</p>
+      </div>
+      <div class="tech-card">
+        <h4>OSCAR Satellites</h4>
+        <p>OSCAR-1 (1961) was the world's first non-governmental satellite, built by amateur operators. The AMSAT network has since launched dozens of amateur satellites enabling global contacts via orbit.</p>
+      </div>
+      <div class="tech-card">
+        <h4>WSPR &amp; FT8 Weak Signal Modes</h4>
+        <p>Developed by Nobel laureate Joe Taylor (K1JT), FT8 and related digital modes allow contacts using fractions of a watt across continents — a revolution in low-power communication.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Software-Defined Radio (SDR)</h4>
+        <p>Amateurs were early pioneers of SDR, replacing hardware circuits with software algorithms. Today's SDR technology underpins commercial 4G/5G base stations and cognitive radio systems.</p>
+      </div>
+      <div class="tech-card">
+        <h4>APRS (Tracking System)</h4>
+        <p>Bob Bruninga (WB4APR) invented APRS in the late 1980s — a real-time digital tracking and messaging system. It is used today in weather balloon tracking, emergency management, and the ISS.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Moonbounce (EME)</h4>
+        <p>Amateur operators pioneered Earth-Moon-Earth communication, bouncing signals off the lunar surface. The techniques developed directly advanced deep-space communications research at NASA and ESA.</p>
+      </div>
+      <div class="tech-card">
+        <h4>Emergency Mesh Networking</h4>
+        <p>Hams developed AREDN (Amateur Radio Emergency Data Network), a high-speed IP mesh system that can be deployed in hours after a disaster — before any commercial infrastructure is restored.</p>
+      </div>
+    </div>
+
+    <p>The consistent thread in these innovations is constraints breeding creativity. Because amateur operators cannot buy commercial solutions to every problem, they build their own — and those solutions, honed by a global community of technically literate volunteers, often turn out to be better than anything the industry had produced.</p>
+  </div>
+
+  <div class="divider"><span class="divider-icon">◆</span></div>
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- SECTION 6 -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div class="section">
+    <span class="section-label">Why You Should</span>
+    <h2>Six Reasons to Get Your Licence</h2>
+
+    <ul class="reason-list">
+      <li>
+        <div class="reason-num">1</div>
+        <div class="reason-text">
+          <strong>It works when nothing else does</strong>
+          <span>Hurricanes, earthquakes, and wildfires routinely knock out mobile networks and internet infrastructure. Amateur radio operators are consistently the first communicators on scene. After Hurricane Katrina, after the 2015 Nepal earthquake, after countless disasters, hams provided the communications backbone that saved lives. A licence is genuine preparedness.</span>
+        </div>
+      </li>
+      <li>
+        <div class="reason-num">2</div>
+        <div class="reason-text">
+          <strong>You can talk to the International Space Station</strong>
+          <span>This is not a metaphor. Many ISS astronauts hold amateur licences and make scheduled contacts with schools and individuals using call sign NA1SS. With a simple hand-held radio and a bit of timing knowledge, you can have a live two-way conversation with someone orbiting 400 km above the Earth.</span>
+        </div>
+      </li>
+      <li>
+        <div class="reason-num">3</div>
+        <div class="reason-text">
+          <strong>It is the ultimate technical education</strong>
+          <span>Preparing for the licence exam teaches electronics, physics, antenna theory, signal propagation, and digital communication — a curriculum that overlaps heavily with electrical engineering and telecommunications. Many engineers credit their ham licence as the spark that launched their careers.</span>
+        </div>
+      </li>
+      <li>
+        <div class="reason-num">4</div>
+        <div class="reason-text">
+          <strong>A worldwide community with no barriers</strong>
+          <span>On any given day, operators in 200+ countries are active on the bands. Language barriers are navigated with a shared operating vocabulary. Age, nationality, and profession matter not at all when two callsigns connect across the ionosphere. The community is inclusive in ways that few global networks can match.</span>
+        </div>
+      </li>
+      <li>
+        <div class="reason-num">5</div>
+        <div class="reason-text">
+          <strong>Citizen science with real impact</strong>
+          <span>Amateur observations of propagation conditions feed directly into space weather research. WSPR network data helps scientists monitor the ionosphere in real time. Hams track near-Earth asteroids, contribute meteor scatter data, and operate in frequencies that commercial entities cannot legally use — filling genuine gaps in scientific monitoring.</span>
+        </div>
+      </li>
+      <li>
+        <div class="reason-num">6</div>
+        <div class="reason-text">
+          <strong>It is far easier than you think</strong>
+          <span>In most countries, the entry-level licence requires only a modest examination — no Morse code (the mandatory CW requirement was dropped globally in 2003). Study apps, online practice exams, and local club sessions make passing straightforward. From zero knowledge to a working licence can take as little as a few weeks of casual study.</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="closing">
+    <h3>73 — Best Regards from Every Corner of Earth</h3>
+    <p>In the language of amateur radio, "73" is the universal sign-off, meaning best regards. It has been exchanged by millions of operators for over a century. On this World Amateur Radio Day, wherever you are — whatever language you speak — the bands are open.</p>
+    <div class="freq">14.225 MHz · 7.200 MHz · 144.200 MHz</div>
+    <p>Tune in. The world is listening.</p>
+  </div>
+
+</div>
+
+<footer>
+  World Amateur Radio Day · April 18, 2026 · Published to celebrate the 101st anniversary of the IARU founding
+</footer>
+
+
+
+</body></html>
